@@ -1,0 +1,258 @@
+
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800rem;
+    margin: 100px;
+    padding: 0 2%;
+}
+ 
+header{
+    padding: 5px 0;
+}
+
+.logo{  
+    width: 60%;
+
+}
+
+.menu{
+    padding-top: 30px;
+    text-align: right;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    margin: 40px;
+    font-size: 20px;
+} 
+
+header{   
+    background-image: url(../assets/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 100px);
+    opacity: 0.9;
+}
+
+.header-content h1{
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 46px;
+    font-weight: bold;
+    margin: 160px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.header-content h1 span{
+
+    max-width: 522px;
+
+}
+
+.text-about{
+    max-width: 1800;
+    max-height: 900px;
+    align-items: flex-start;
+}
+
+
+.text-about h1{ 
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 80px;
+    text-align: left;
+}
+
+.text-about p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 80px;
+    line-height: 23px;
+    margin-bottom: 50px;
+    font-weight: 550;
+    line-height: 28px;
+   
+}
+
+.faq {
+    max-width: 1800px;
+    max-height: 420px;
+    align-items: flex-start;
+    background-color: rgb(209, 208, 208);
+    padding: 10px;
+}
+
+section{
+
+    min-height: 540px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    justify-content: space-around;
+}
+
+#faq-about{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+
+}
+
+#faq-about p {
+  max-width: 265px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+#faq-about h1 {
+  font-size: 48px;
+  text-align: left;
+  
+}
+
+.faq{
+
+    max-width: 1000px;
+    margin: 32px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgb(196, 196, 196);
+    cursor: pointer;
+
+}
+
+.question{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.question h3{
+
+    font-size: 20px;
+    margin-left: 15;
+    margin-top: 16;
+}
+
+.answer{
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.answer p{
+
+    padding-top: 16px;
+    line-height: 1.6;
+    font-size: 22.4px;
+    padding: 16px;
+
+
+}
+
+.faq.active .answer {
+
+    max-height: 300px;
+
+}
+
+.faq.active svg {
+
+    transform: rotate(180deg);
+
+}
+
+
+svg{
+
+    transition: transform .5s ease-in;
+    margin-right: 10px;
+    margin-top: 17px;
+
+}
+
+.veja-mais{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.graphic {
+    max-width: 1800;
+    min-height: 420;
+    background-color: rgb(255, 255, 255);
+    margin-top: 7.2rem;
+}
+
+.graphic p,h1{
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 134px;
+    background-color: #000;
+    color: #fff;
+    padding-top: 55px;
+  }
+  
+  .copyright { 
+    margin-bottom: 40px;
+    text-align: center
+    
+  }
+  
+  .footer-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo-footer {
+    display: flex;
+    gap: 116px;
+  }
+  
+  .footer-list-container {
+    display: flex;
+    gap: 119px;
+  }
+  
+  .footer-list li:nth-child(1) {
+    font-size: 30px;
+  }
+  
+  .footer-list {
+    list-style: none;
+  }
+  
+  .footer-list li {
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    width: 311px;
+    height: 70px;
+    border: none;
+    border-radius: 29px;
+    background-color: rgb(109, 109, 109);
+    color: #fff;
+    font-weight: 500;
+  } 
+  
